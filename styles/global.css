@@ -10,6 +10,11 @@
     transform: translateY(0);     /* termina en posición original */
   }
 }
+/* Animación a títulos <h1> y <h2> */
+h1, h2 {
+  animation: fadeInUp 1.2s ease-out;
+}
+
 :root {
   --texto: #fff2e0;           
   --fuego: #ff6f3c;           
