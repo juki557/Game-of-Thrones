@@ -1,5 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap');
 
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);  /* inicia 20px abajo */
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);     /* termina en posición original */
+  }
+}
 :root {
   --texto: #fff2e0;           
   --fuego: #ff6f3c;           
@@ -194,5 +204,11 @@ iframe {
   display: inline-block;
 }
 
-
+#personajes img {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+#personajes img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+}
 
