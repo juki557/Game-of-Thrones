@@ -4,7 +4,7 @@
   --fuego: #ff6f3c;      
   --naranja-fuego: #ff944d; 
 }
-
+/*no se porque no me toma el css al 404 ya que lo saque de la carpeta y lo deje suelto y no me lo toma*/
 .contenido-404 {
   text-align: center;    /* centra contenido */
   margin-top: 30px;      /* espacio arriba */
